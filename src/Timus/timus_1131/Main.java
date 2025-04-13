@@ -10,13 +10,14 @@ public class Main {
         int hours = 0;
         int computer = 1;
 
-        while (n > 0) {
-            n -= computer;
-            computer += computer;
-            hours += 1;
-            if (computer > k) {
-                computer = k;
-            }
+        while (computer < n && computer <= k) {
+            computer *= 2;
+            hours++;
+        }
+
+        if (computer < n) {
+            int remain = n - computer;
+            hours += (remain + k - 1) / k;
         }
 
         System.out.println(hours);
