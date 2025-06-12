@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><tasks>
+            
+    
+    <task>
+                        
+        
+        <name>Помыть полы</name>
+                        
+        
+        <term>До 08.06.2025</term>
+                        
+        
+        <complexity>Легкая</complexity>
+                    
+    
+    </task>
+            
+    
+    
+            
+    
+    <task>
+                        
+        
+        <name>Выучить java</name>
+                        
+        
+        <term>До 12.06.2026</term>
+                        
+        
+        <complexity>Сложная</complexity>
+                    
+    
+    </task>
+
+    
+    <task>
+        <name>Изучить Spring</name>
+        <term>До 07.06.2026</term>
+        <complexity>Сложная</complexity>
+    </task>
+</tasks>
